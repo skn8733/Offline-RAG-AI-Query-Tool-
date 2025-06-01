@@ -1,0 +1,23 @@
+# PDF parsing
+PyMuPDF
+
+# LLaMA for offline local inference
+llama-cpp-python
+
+# Core dependencies
+numpy
+tqdm
+
+# Langchain ecosystem (for orchestration, RAG, and embeddings)
+langchain
+langchain-community
+
+
+# Vector store - using Chroma DB for local vector database
+chromadb
+
+# Embedding model (lightweight local embeddings)
+sentence-transformers==2.3.1
+
+# Optional - for structured config/logging/debugging
+pydantic
